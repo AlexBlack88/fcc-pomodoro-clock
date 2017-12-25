@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>PClock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <audio id="alarm" src="http://codingtutorials360.com/14244764.mp3" type="audio/mpeg"></audio>
+
+<div class="text-center">
+  <h1 class="header"><strong>Pomodoro Clock</strong></h1>
+  <div class="divider"></div>
+  <div class="row">
+    <div class="col">
+      <div class="work">
+    <h1 id="work-title">Session</h1>
+    <a href="#" class="btn btn-success" id="subWork">-</a>
+     <h2 id="work-type"></h2>
+    <h2 id="work-num">25</h2>
+    <a href="#" class="btn btn-success" id="addWork">+</a>
+  </div>
+    </div>
+    <div class="col">
+          <div class="break">
+    <h1 id="break-title">Break</h1>
+    <a href="#" class="btn btn-success" id="subBreak">-</a>
+    <h2 id="break-type"></h2>
+    <h2 id="break-num">5</h2>
+    <a href="#" class="btn btn-success" id="addBreak">+</a>
+  </div>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <h3 id="newPom" class="text-center">
+    Reset for new Pomodoro?
+  </h3>
+      <a href="#" class="btn btn-primary" id="start">Start</a>
+      <a href="#" class="btn btn-warning" id="reset">Reset</a>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
